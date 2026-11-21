@@ -42,8 +42,6 @@ package() {
     install -Dm755 "$lib_dir/libmagiskboot.so" "$magisk_dir/magiskboot"
     install -Dm755 "$lib_dir/libmagiskinit.so" "$magisk_dir/magiskinit"
     install -Dm755 "$lib_dir/libmagiskpolicy.so" "$magisk_dir/magiskpolicy"
-    install -Dm755 "$srcdir/assets/chromeos/kernel.keyblock" "$magisk_dir/chromeos/kernel.keyblock"
-    install -Dm755 "$srcdir/assets/chromeos/kernel_data_key.vbprivk" "$magisk_dir/chromeos/kernel_data_key.vbprivk"
     install -Dm755 "$srcdir/assets/addon.d.sh" "$magisk_dir/addon.d.sh"
     install -Dm755 "$srcdir/assets/boot_patch.sh" "$magisk_dir/boot_patch.sh"
     install -Dm755 "$srcdir/assets/util_functions.sh" "$magisk_dir/util_functions.sh"
