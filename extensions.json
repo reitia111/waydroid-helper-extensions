@@ -1069,6 +1069,30 @@
                     {
                         "name": "Magisk",
                         "description": "The Magic Mask for Android",
+                        "version": "v31.1",
+                        "path": "magisk-31100",
+                        "install": "Magisk.install",
+                        "files": [
+                            "Magisk.install",
+                            "bootanim.rc",
+                            "EXTENSION"
+                        ],
+                        "provides": [
+                            "magisk"
+                        ],
+                        "conflicts": [
+                            "magisk"
+                        ],
+                        "source": [
+                            "Magisk-v31.1.apk::https://github.com/ayasa520/Magisk/releases/download/v31.1/app-debug.apk"
+                        ],
+                        "sha256sums": [
+                            "467cb94715e7d23d974e9dd97c69479cc482f3c4858bda278f878fa2ba30954b"
+                        ]
+                    },
+                    {
+                        "name": "Magisk",
+                        "description": "The Magic Mask for Android",
                         "version": "v30.7",
                         "path": "magisk-30700",
                         "install": "Magisk.install",
